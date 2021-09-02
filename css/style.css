@@ -1,0 +1,126 @@
+body {
+  margin-bottom: 50px;
+}
+
+/* header start */
+header {
+  padding: 20px 0;
+  background-color: #05c9c9;
+  border-bottom: 1px solid black;
+}
+.c_nav {
+}
+.nav_b {
+  margin-right: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.logo {
+  font-size: 35px;
+  font-weight: 400;
+  color: #000000;
+  width: 100%;
+}
+.nav_t {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+.nav_t:focus {
+  box-shadow: none !important;
+}
+.nav_t_i {
+  font-size: 30px;
+  color: #ffffff !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+.menu ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000 !important;
+  padding: 0 25px !important;
+  transition: 0.3s;
+}
+
+.menu ul li:last-child a {
+  padding-right: 0 !important;
+}
+.menu ul li a:hover {
+  color: #ffffff !important;
+}
+/* header end */
+h2 {
+  background-color: rgb(255, 239, 15);
+  color: #000000;
+}
+/* wow */
+.s1,
+.s2,
+.s3,
+.s4 {
+  min-height: 400px;
+  margin-bottom: 30px;
+}
+.s1 {
+  background-color: blueviolet;
+}
+.s2 {
+  background-color: cadetblue;
+}
+.s3 {
+  background-color: darkgoldenrod;
+}
+.s4 {
+  background-color: darkkhaki;
+}
+/* parallax */
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
+/* aos */
+.box {
+  width: 300px;
+  height: 250px;
+}
+.box:nth-child(1) {
+  background-color: red;
+}
+/* menu */
+.ui-menu {
+  width: 150px;
+}
+/* Progressbar */
+#progressbar {
+  margin-top: 20px;
+}
+
+.progress-label {
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.ui-dialog-titlebar-close {
+  display: none;
+}
+.tittle {
+  text-align: center;
+  color: darkred;
+}
+/* select menu */
+fieldset {
+  border: 0;
+}
+label {
+  display: block;
+  margin: 30px 0 0 0;
+}
+.overflow {
+  height: 200px;
+}
+/* tooltip */
+label {
+  display: inline-block;
+  width: 5em;
+}
